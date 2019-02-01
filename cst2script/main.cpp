@@ -97,13 +97,17 @@ vector<string> *CSTOpen(string path,string cp) {
 		throw "File Zip Error";
 
 	CS2InfoHead* info = (CS2InfoHead*)uncompressbuffer;
+
 	if (uncompsize- sizeof(CS2InfoHead) !=info->totalsize)
 		throw "File broken Error!";
 
 	char *opcodeptr;
 	opcodeptr = uncompressbuffer + sizeof(CS2InfoHead) + info->opcodeoffset;
+
 	int entrys = (info->opcodeoffset - info->index1Size) / 4;
 	int *index = (int*)(uncompressbuffer + sizeof(CS2InfoHead) + info->index1Size);
+
+	//////////////////////////////////////////////////////////////////////////
 
 	for (int i=0;i<entrys;i++) {
 		int offset=index[i];
@@ -144,6 +148,10 @@ vector<string> *CSTOpen(string path,string cp) {
 	delete uncompressbuffer;
 	return result;
 }
+
+// bool CSTSave(QString file,QStringList* list) {
+// 
+// }
 
 int main(int argc, char **argv) {
 	try {
