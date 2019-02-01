@@ -1,11 +1,15 @@
-﻿生成启动时间为 土 2019 02 02 午前 2:45:15。
+﻿生成启动时间为 土 2019 02 02 午前 2:57:45。
      1>项目“E:\Gal Files\Proj\cst2script\cst2script\cst2script\cst2script.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在对“Debug\cst2script.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         所有输出均为最新。
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(70): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+     1>e:\gal files\proj\cst2script\cst2script\cst2script\main.cpp(112): warning C4700: 使用了未初始化的局部变量“result”
        Link:
          E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.exe" /NOLOGO /LIBPATH:. zlib.lib zlibstat.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /ManifestFile:"Debug\cst2script.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\main.obj
+         LINK : 没有找到 E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.exe 或上一个增量链接没有生成它；正在执行完全链接
      1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
          cst2script.vcxproj -> E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.exe
        Manifest:
@@ -17,4 +21,4 @@
 
 生成成功。
 
-已用时间 00:00:00.73
+已用时间 00:00:01.44
