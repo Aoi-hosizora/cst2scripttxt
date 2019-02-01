@@ -1,0 +1,20 @@
+﻿生成启动时间为 土 2019 02 02 午前 2:45:15。
+     1>项目“E:\Gal Files\Proj\cst2script\cst2script\cst2script\cst2script.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\cst2script.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.exe" /NOLOGO /LIBPATH:. zlib.lib zlibstat.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /ManifestFile:"Debug\cst2script.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         cst2script.vcxproj -> E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Gal Files\Proj\cst2script\cst2script\Debug\cst2script.exe;#1" /manifest Debug\cst2script.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\cst2script.unsuccessfulbuild”。
+         正在对“Debug\cst2script.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Gal Files\Proj\cst2script\cst2script\cst2script\cst2script.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.73
